@@ -1,3 +1,14 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended" // Enables eslint-plugin-prettier and eslint-config-prettier
+  ],
+  "plugins": [
+    "react",
+    "prettier" // Runs Prettier as an ESLint rule
+  ],
+  "rules": {
+    "prettier/prettier": "error" // Makes prettier errors into ESLint errors
+  }
 }
