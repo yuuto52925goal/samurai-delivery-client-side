@@ -1,8 +1,16 @@
+.header-background{
+    width: 100%;  
+    background-size: cover;
+    background-position: center;
+}
+
+
 .header{
     display: flex;
     justify-content: space-between;
-    margin: 20px 70px 10px 40px;
+    margin: 00px 70px 10px 40px;
     align-items: center;
+    padding-top: 20px;
 }
 
 .company-info-header{
@@ -12,6 +20,7 @@
         width: 130px;
         height: 50px;
         margin: 3px;
+        border-radius: 5px;
     }
     div {
         margin: 15px;
@@ -33,5 +42,14 @@
     p {
         margin: 3px 0 3px 3px
     }
+}
+
+.company-concept{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7rem;
+    padding: 70px 0 150px 0;
 }
 
