@@ -14,7 +14,7 @@ interface HeroProductProps {
   
 const HeroProduct: React.FC<HeroProductProps> = ({ productName, productInfo, imageUrl }) => {
 
-    console.log(productInfo, productName, imageUrl);
+    // console.log(productInfo, productName, imageUrl);
 
   return (
     <div className='hero-product'>
