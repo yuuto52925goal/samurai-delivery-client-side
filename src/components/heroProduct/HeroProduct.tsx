@@ -22,7 +22,7 @@ const HeroProduct: React.FC<HeroProductProps> = ({ productName, productInfo, ima
             <h1 className='product-name'>{productName}</h1>
             <p>{productInfo}</p>
             <div>
-                <Button variant="outlined" style={{ backgroundColor: yellow[800] , border: `1px solid ${yellow[800]}`, margin: "20px 20px 20px 0px", color: yellow[50]}}>Subscribe</Button>
+                <Button variant="outlined" style={{ backgroundColor: orange[800] , border: `1px solid ${orange[800]}`, margin: "20px 20px 20px 0px", color: yellow[50]}}>Subscribe</Button>
                 <Button variant="outlined" style={{ color: yellow[800] , border: `1px solid ${yellow[800]}`, margin: '20px 20px 20px 0px'}}>Read More</Button>
             </div>
         </div>

@@ -12,7 +12,33 @@
     color: black;
     /* background-color: #f8f9fa; */
     margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.sns-footer, .company-footer, .help-footer, .legal-footer{
+    color: #344767;
+    margin: 10px;
+    font-size: 0.9rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    padding-left: 5%;
+    li{
+        color: #343a40;
+        list-style-type: none;
+        font-size: 0.8rem;
+    }
+}
+
+.sns-footer{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
 }
 
