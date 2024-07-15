@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5px;
     p{
         color: gray;
     }
@@ -22,7 +23,7 @@
 
 .sns-footer, .company-footer, .help-footer, .legal-footer{
     color: #344767;
-    margin: 10px;
+    margin: 20px;
     font-size: 0.9rem;
     flex-direction: column;
     display: flex;
@@ -33,6 +34,8 @@
         color: #343a40;
         list-style-type: none;
         font-size: 0.8rem;
+        margin-top: 10px;
+        margin-left: 3px;
     }
 }
 
@@ -40,5 +43,10 @@
     display: flex;
     /* justify-content: center; */
     align-items: center;
+}
+
+.sns-icon{
+    display: flex;
+    justify-content: center;
 }
 
