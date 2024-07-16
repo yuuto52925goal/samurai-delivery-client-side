@@ -20,7 +20,9 @@ const MaiunProduct = () => {
             <Navbar />
         </div>
         <div className='exprenations'>
-          hello
+          <div className='feature'>
+            <h1>Seanonal Japanese Snack</h1>
+          </div>
         </div>
     </>
   )

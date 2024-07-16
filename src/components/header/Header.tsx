@@ -31,7 +31,9 @@ const Header: React.FC<HeaderProps> = ({ children }) => {
     };
 
   useEffect(() => {
+    console.log('loading')
     fetchRandomImage()
+    console.log('Loading finish')
   }, [])
 
   return (

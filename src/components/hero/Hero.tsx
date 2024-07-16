@@ -22,6 +22,9 @@ export default function Hero() {
           <h5 className='concept-text'>Have Japanese Products Everywhere</h5>
         </div>
       </div>
+      <div className='container-our-product'>
+        <h1 className='our-product'>Service</h1>
+      </div>
       <HeroProduct productName="Seasonal Japanese Snack" productInfo="Experience the flavors of Japan with our subscription service, offering a delightful selection of seasonal snacks. Each box is filled with popular treats and a generous amount of carefully curated goodies. Enjoy the taste of Japan delivered right to your doorstep every month!" imageUrl=""/>
       <HeroProduct productName="Seasonal Japanese Snack" productInfo="Experience the flavors of Japan with our subscription service, offering a delightful selection of seasonal snacks. Each box is filled with popular treats and a generous amount of carefully curated goodies. Enjoy the taste of Japan delivered right to your doorstep every month!" imageUrl=""/>
       <HeroProduct productName="Seasonal Japanese Snack" productInfo="Experience the flavors of Japan with our subscription service, offering a delightful selection of seasonal snacks. Each box is filled with popular treats and a generous amount of carefully curated goodies. Enjoy the taste of Japan delivered right to your doorstep every month!" imageUrl=""/>

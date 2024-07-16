@@ -32,6 +32,19 @@
     min-width: 200px; /* Optional: set a minimum width */
 }
 
+.our-product{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 1.8rem;
+}
+
+.container-our-product{
+    border-bottom: 1px solid black;
+    margin: 50px 150px -40px 150px;
+}
+
 .concept-text{
     color: black;
     text-align: center;

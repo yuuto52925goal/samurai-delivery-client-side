@@ -10,8 +10,9 @@ export default function Home() {
     <>
       <Header >
         <div className='company-concept'>
-          <h3>Having Japan</h3>
-          <h3>Everywhere</h3>
+          <h3>Feel Japan!</h3>
+          <h3>Have Japan!</h3>
+          <h3>Come Japan!</h3>
         </div>
       </ Header>
       <Hero />

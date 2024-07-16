@@ -2,8 +2,8 @@ import React from 'react'
 import Button from '@mui/material/Button';
 import { orange, yellow } from '@mui/material/colors';
 import Image from "next/image";
-import samuraiLogo from '../../images/samurai_logo.jpg'
-import './Navbar.css'
+import samuraiLogo from '../../images/samurai_logo.jpg';
+import './Navbar.css';
 
 const  Navbar = () =>  {
   return (
@@ -11,7 +11,7 @@ const  Navbar = () =>  {
         <div className='company-info-header'>
           <Image src={samuraiLogo} alt='' className='samurai-logo' />
           <div>
-            <p>Products</p>
+            <p>Pricing</p>
           </div>
           <div>
             <p>About Us</p>
