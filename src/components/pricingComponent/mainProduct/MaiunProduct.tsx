@@ -7,8 +7,6 @@ import "./MainProduct.css"
 const MaiunProduct = () => {
 
     const [imageUrl, setImageUrl] = useState(mtFuji.src)
-    console.log('hello')
-
 
   return (
     <>
